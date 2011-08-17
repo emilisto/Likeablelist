@@ -6,8 +6,6 @@ A simple jQuery plugin to make a UL list into a "A, B and 3 other people like th
 Usage
 ------
   
-<div class="liquid highlight html+javascript"></div>
-  
   <link rel="stylesheet" href="css/likeablelist.css" />
   <script type="text/javascript" src="js/likeablelist.js" />
   <script>
@@ -25,10 +23,8 @@ Usage
     $(element).likeablelist(options);
   </script>
 
-<div class="liquid endhighlight"></div>
-
 End stuff
 ---------
 
-Author: Emil Stenqvist
-License: MIT, http://www.opensource.org/licenses/mit-license.php
+* Author: Emil Stenqvist
+* License: MIT, http://www.opensource.org/licenses/mit-license.php
