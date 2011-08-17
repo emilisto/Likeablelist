@@ -1,0 +1,39 @@
+/*
+  Likeablelist jQuery plugin
+  Author: Emil Stenqvist <emsten@gmail.com>
+  
+  Keep it free, and it's free for you.
+*/
+.likeablelist ul {
+  list-style-type: none;
+}
+.likeablelist li {
+  display: inline;
+}
+.likeablelist li.fold-counter
+{
+  color: #43566B;
+  cursor: pointer;
+  font-weight: 800;
+}
+.likeablelist li.fold-counter:hover
+{
+  color: #183C63;
+}
+/* Styles for EXPANDED list */
+.likeablelist li.last span.separator,
+.likeablelist li.fold-counter {
+  display: none;
+}
+.likeablelist li.after-fold {
+  display: inline;
+}
+
+/* Styles for FOLDED list */
+.likeablelist.folded li.after-fold,
+.likeablelist.folded li.last-before-fold span.separator {
+  display: none;
+}
+.likeablelist.folded li.fold-counter {
+  display: inline;
+}
