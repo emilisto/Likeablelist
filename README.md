@@ -1,7 +1,7 @@
 Likeablelist
 ============
 
-A simple jQuery plugin to make a UL list into a "A, B and 3 other people like this thing" that can be expanded. The verbs and separators can be customized to fit different needs. A click event is bound that toggles expansion/folding of the list.
+A simple jQuery plugin to make a UL list into a `A, B and 3 other people like this thing` that can be expanded. The verbs and separators can be customized to fit different needs. A click event is bound that toggles expansion/folding of the list.
 
 Usage
 -----
