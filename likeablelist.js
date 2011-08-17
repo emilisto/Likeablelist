@@ -2,19 +2,22 @@
   Likeablelist jQuery plugin
   Author: Emil Stenqvist <emsten@gmail.com>
   
+  Licensed under the MIT license
+  
   Keep it free, and it's free for you.
 */
 (function($) {
+  var defaults = {
+    nFold: 3,
+    verb: 'like this',
+    verbSingular: 'likes this',
+    separator: ',',
+    lastSeparator: 'and',
+    qnty: 'others',
+    qntySingular: 'other'
+  };
+  
   $.fn.likeablelist = function(options) {
-    var defaults = {
-      nFold: 3,
-      verb: 'like this',
-      verbSingular: 'likes this',
-      separator: ',',
-      lastSeparator: 'and',
-      qnty: 'others',
-      qntySingular: 'other'
-    };
 
     options = _.extend({}, defaults, options);
 
@@ -67,6 +70,7 @@
         self.toggleClass('folded');
       });
     $('ul', self).append(expandLink);
-
-  }
+    
+    return this;
+  };
 })(jQuery);
